@@ -1,9 +1,9 @@
 @echo off
 echo Downloading CSV file...
-python download_csv.py
+python src/download_csv.py
 echo Running API to CSV script...
-python api2csv.py
+python src/api2csv.py
 echo Running CSV to Database script...
-python csv2db.py
+python src/csv2db.py
 echo All scripts have been executed.
 pause

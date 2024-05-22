@@ -1,3 +1,4 @@
+# https://image.tmdb.org/t/p/w500/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg
 # tmdb api를 이용해서 스크래핑 하는 스크립트
 # 나중에 필요한 컬럼있으면 response json 파싱 다시 해서 추가하시면 됩니당
 # 속도 꽤 빠름 전체 데이터 20만개가 안되서 3분도 안걸림
@@ -38,7 +39,6 @@
 #     tmdbId = row.tmdbId
 #     tmdbId2json(tmdbId)
 
-# https://image.tmdb.org/t/p/w500/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg
 
 # ----------round 2-------------
 # 스레드 기반으로 더빠르게 동작하게 만들고 바로 csv로 저장
